@@ -1,0 +1,21 @@
+name: LastPlayed
+main: cc.javajobs.lastplayed.LastPlayed
+author: JavaJobs
+version: ${project.version}
+depend: [Essentials]
+commands:
+  lastplayed:
+    description: Query the Essentials Database.
+permissions:
+  lastplayed.command:
+    default: op
+    description: The base command required for any and all functionality.
+  lastplayed.query:
+    default: op
+    description: Query the database.
+  lastplayed.examples:
+    default: op
+    description: See valid examples of Queries.
+  lastplayed.whitelistremove:
+    default: op
+    description: Remove previous query from Whitelist.
